@@ -1,0 +1,25 @@
+#include<stdio.h>
+void main()
+{
+    int marks[10],i,n,sum = 0,average;
+
+    printf("Enter number of element :");
+    scanf("%d",&n);
+
+    for(i =0;i<n;++i)
+    {
+        printf("Enter number%d",average);
+        scanf("%d",&marks[i]);
+
+        sum += marks[i];
+    }
+    sum = sum/n;
+    printf("Average = %d",average);
+
+    return 0;
+
+
+
+
+    
+}
